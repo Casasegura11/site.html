@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir imagem</title>
+    <style>
+        body{background-color: rgb(204, 193, 221);}
+    </style>
+</head>
+<body>
+    <h1>Olha essas imagem</h1>
+    <p>vamos abrir as imagens para testar os tamanhos</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="fotos/fotoP.png">
+        <source media="(max-width:1000px)" srcset="fotos/fotoM.png"type="image/png">
+        <img src="fotos/fotoM.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio></h1>
+    <p>curte um som ai</p>
+    <audio src="musicas/a-call-to-the-soul-149262.mp3"controls autoplay></audio>
+    <audio src="musicas/SnapSave.io - Kyle Alsina & Rema - Calm Down (Remix Video) (128 kbps).mp3"controls autoplay></audio>
+    <h1>Agora nos vamos assistir um video</h1>
+    <p>Esse video e sobre um suporte muito bom</p>
+    <video src="video/video suporte celular.mp4"width="500"controls></video>
+    <h1>Inserir um video incorporado</h1>
+    <p>incorporar video</p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
